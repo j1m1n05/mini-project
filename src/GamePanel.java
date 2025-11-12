@@ -43,6 +43,7 @@ public class GamePanel extends JPanel {
                         scorePanel.incerase(20);
                         String text=tStore.get();
                         textLabel.setText(text);
+                        inputField.setText("");  //입력창 비우기
                     }
                 }
             });
